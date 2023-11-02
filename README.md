@@ -1,6 +1,8 @@
-Issue detected on November 2, 2023.
+Issue detected on November 1, 2023.
 
-Replicate by running:
+The issue appears only on buildpack version gcr.io/buildpacks/builder:google-22 (latest) + gRPC.
+
+To replicate:
 ```
 git clone https://github.com/sl0wik/buildpacks-grpc-issue
 cd buildpacks-grpc-issue
